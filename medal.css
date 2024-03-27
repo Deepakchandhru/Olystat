@@ -1,0 +1,67 @@
+
+label{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(4, 20, 247);
+}
+
+select,input[type=number]{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+span{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+span:hover{
+    background-color: chartreuse;
+}
+
+table,tr,td,th{
+    margin-left: auto ;
+    margin-right: auto;
+    padding-top: 50px;
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding:10px;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    border: 8px solid rgb(68, 65, 65);
+}
+th{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS' ;
+  background-color: orchid;
+  padding: 20px ;
+}
+tr:hover{
+    background-color: aquamarine;
+}
+td:nth-child(even){
+    background-color: rgb(211, 193, 193);
+}
+button, input[type=submit]{
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1%;
+    margin-left: 30%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(117, 45, 183) ;
+}
+button:hover ,input[type=submit]:hover{
+    background-color: rgb(30, 252, 222);
+    color: brown;
+}
