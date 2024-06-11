@@ -15,7 +15,7 @@ if ($row) {
 $sql="INSERT INTO login(uname,pass,role) VALUES('$user','$pass','user') ;";
 $result = pg_query($conn,$sql);
 echo "<script> window.alert('Your account has been created. Please log into your account.'); 
-    window.location.href='login.html';</script>";    
+    window.location.href='index.html';</script>";    
 }
 ?>
 
