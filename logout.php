@@ -7,6 +7,6 @@ $sq=" UPDATE login SET status='signed out' WHERE uname='$uname' and role='$role'
 $res = pg_query($conn,$sq);
 session_unset();
 session_destroy();
-header("Location: login.html");
+header("Location: index.html");
 exit();
 ?>
