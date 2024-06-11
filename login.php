@@ -24,11 +24,11 @@ if (pg_num_rows($result)) {
             }   
         }
         else{
-            echo "<script> window.alert('Check your password') ; window.location.href='login.html' ;</script>";
+            echo "<script> window.alert('Check your password') ; window.location.href='index.html' ;</script>";
         }
     }    
 }else{
-    echo "<script> window.alert('Check your username') ; window.location.href='login.html ';</script>" ; 
+    echo "<script> window.alert('Check your username') ; window.location.href='index.html ';</script>" ; 
 }
 
 ?>
