@@ -1,0 +1,73 @@
+label {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF4500;
+}
+
+select, input[type=number] {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF4500;
+}
+
+span {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+span:hover {
+    background-color: #FFD700;
+}
+
+table, tr, td, th {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    border: 1px solid #FF4500;
+    border-collapse: collapse;
+    padding: 10px;
+    color: #FF4500;
+    background-color: #FFFACD;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    border: 8px solid #FF4500;
+}
+
+th {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    background-color: #FFA500;
+    padding: 20px;
+}
+
+tr:hover {
+    background-color: #FFD700;
+}
+
+td:nth-child(even) {
+    background-color: #FFE4B5;
+}
+
+button, input[type=submit] {
+    border: 2px solid #FF4500;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    margin-left: 30%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #FF4500;
+}
+
+button:hover, input[type=submit]:hover {
+    background-color: #58f724;
+    color: #FF4500;
+}

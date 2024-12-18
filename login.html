@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="login" content="login account">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>olystat - Log into your account</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<div class="container">  <nav>
+    <ul>
+      <li class="active"><a href="#">LOGIN</a></li>
+      <li class="switch"><a href="signin.html">SIGN IN</a></li>
+    </ul>
+  </nav>
+
+  <form method="post" action="login.php">
+    <fieldset>
+
+      <label for="uname"><b>User name :</b></label>
+      <input type="text" id="uname" name="uname" placeholder="Enter your username" required> <br><br>
+
+      <label for="pass"><b>Password :</b></label>
+      <input type="password" id="pass" name="pass" placeholder="Enter your password" required> <br><br>
+
+      <label for="role"><b>Role :</b></label>
+      <input type="radio" id="role" name="role" value="admin" required> Admin &nbsp;
+      <input type="radio" id="role" name="role" value="user" required> User <br><br>
+
+      <input class="button" type="submit" value="LOGIN">  <br><br>
+
+      <a href="signin.html"> New User ? </a><br>
+      <a href="guest.php"> Continue as Guest </a><br>
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
